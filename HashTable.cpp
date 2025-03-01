@@ -62,7 +62,7 @@ public:
 
     void print() {
         cout << "Hash Table:\n";
-        for (int i = 0; i < size; i++) { // Regular for loop
+        for (int i = 0; i < size; i++) { 
             cout << "[" << i << "] " << (table[i].first.empty() ? "empty" : table[i].first + " -> " + table[i].second) << endl;
         }
         cout << "------------------\n";
